@@ -1,7 +1,17 @@
-package day01variables;
+package day02variables;
 
 public class C01_Variables {
     public static void main(String[] args){
+
+        /* java 21 ile void main() {
+        ....
+        } olarak da yazılabilir ancak henüz stabil değil
+
+        void main(): Bu satır, programın giriş noktasını tanımlar.
+        Java 21'de main methodunun artık public veya protected erişim seviyesine sahip olması
+        ve static olması gerekmez.
+         */
+
 
         //Java bu satiri okumaz. Kendimize veya baskasina aciklamadir
         /*
@@ -96,8 +106,5 @@ public class C01_Variables {
         long c = 15, d = 20;
         System.out.println("Sum : " + (c + d)); //Sum : 35
         //Java otomatik int kabul etti. Java memory'i korudu
-
-
     }
-
 }
