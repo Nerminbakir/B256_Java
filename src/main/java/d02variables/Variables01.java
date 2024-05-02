@@ -1,6 +1,6 @@
-package day02variables;
+package d02variables;
 
-public class C01_Variables {
+public class Variables01 {
     public static void main(String[] args){
 
         /* java 21 ile void main() {
