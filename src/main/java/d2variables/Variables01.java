@@ -1,4 +1,4 @@
-package d02variables;
+package d2variables;
 
 public class Variables01 {
     public static void main(String[] args){
