@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Scanner06 {
     public static void main(String[] args) {
+
         /*Ornek 6: Yeni Satir Karakteri (‘\n’) Hatasi: Ardışık olarak birden fazla Scanner objesiyle bilgi
         toplarken bazı girdilerin atlanması, genellikle Scanner'ın girdi akışını nasıl işlediğiyle ilgilidir.
         Bu durum, özellikle nextInt(), nextDouble() gibi sayısal girdi alan metodlardan sonra nextLine() metodunu

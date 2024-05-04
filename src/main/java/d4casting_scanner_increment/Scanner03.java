@@ -22,3 +22,9 @@ public class Scanner03 {
         System.out.println("Division : " + (firstNumber / secondNumber));
     }
 }
+
+        /*
+         System.out.printf( ) ekrana biçimlendirilmiş bir çıktı yazdırmak için kullanılır.
+         Biçimlendirme için yer tutucular kullanılır ve bu yer tutucuları, çıktıda değiştirilecek değerleri temsil eder.
+         % işaretinden sonra yazılan .2; ondalık sayılarda virgülden sonra 2 basamak alınacağını gösterir.
+         */
