@@ -34,6 +34,5 @@ public class IfStatements04 {
         } else {
             System.out.println("Gun sayilari 7'den buyuk olamaz");
         }
-
     }
 }

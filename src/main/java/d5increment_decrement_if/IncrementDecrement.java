@@ -69,6 +69,5 @@ public class IncrementDecrement {
 
         System.out.println(t); //19
         System.out.println(s); //19
-
     }
 }

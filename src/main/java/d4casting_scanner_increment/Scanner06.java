@@ -15,8 +15,11 @@ public class Scanner06 {
         System.out.println("Yasinizi giriniz");
         int age = scanner.nextInt(); //Sayisal bir girdi aldim
 
+        // \n
+        scanner.nextLine(); //Kullanilmayan yeni satir karakterini okuyup atar
+
         System.out.println("Adinizi yaziniz");
-        String name = scanner.nextLine(); //
+        String name = scanner.nextLine();
 
         //Aciklama: Bu kodda, nextInt() çağrısından sonra nextLine() hemen çağrılır.
         // Ancak, kullanıcının yaşını girdikten sonra Enter tuşuna basmasıyla oluşan

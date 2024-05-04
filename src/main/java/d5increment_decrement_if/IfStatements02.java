@@ -25,10 +25,8 @@ public class IfStatements02 {
         //2.yol: if-else
 
         if (num % 2 == 0) {
-
             System.out.println("Sayi cifttir");
         } else {
-
             System.out.println("Sayi tektir");
         }
 

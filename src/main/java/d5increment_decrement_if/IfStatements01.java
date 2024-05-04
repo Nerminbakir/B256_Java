@@ -4,7 +4,7 @@ public class IfStatements01 {
     public static void main(String[] args) {
 
         if (7 < 5) {
-            System.out.println("condition dogru if calisti");
+            System.out.println("condition dogru, if calisti");
         }
 
         if (7 == 4 + 3) {
