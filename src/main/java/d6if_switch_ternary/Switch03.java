@@ -8,8 +8,11 @@ public class Switch03 {
         /*Yeni switch ifadesi, daha esnek ve güçlü bir yapı sunarak, geleneksel switch-case
         yapısının daha temiz ve ifade edilebilir hale getirilmesini sağlar.
 
+        Java 12 ile birlikte gelen yeni switch ifadesi, önceki switch ifadesinden farklı olarak
+        daha kısa ve okunabilir bir syntax sunar. Java 14 ile stabil hale geldi.
+
         Ayrıca, daha önceki switch yapısı değer döndürmezken, yeni switch ifadesi bir değer döndürebilir
-         ve bu değer doğrudan bir değişkene atanabilir.
+        ve bu değer doğrudan bir değişkene atanabilir.
 
         Yeni switch ifadesinin ana özellikleri:
 
@@ -33,7 +36,7 @@ public class Switch03 {
             case 12, 1, 2 -> "Kis";
             case 3, 4, 5 -> "Ilkbahar";
             case 6, 7, 8 -> "Yaz";
-            case 9, 10, 11 -> "Sobahar";
+            case 9, 10, 11 -> "Sonbahar";
             default -> "Bilinmeyen ay";
 
         };

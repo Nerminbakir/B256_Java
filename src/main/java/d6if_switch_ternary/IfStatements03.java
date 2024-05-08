@@ -29,7 +29,6 @@ public class IfStatements03 {
            Based on the gender and age of the person, type the appropriate message into the console*/
 
         Scanner input = new Scanner(System.in);
-
         System.out.println("Cinsiyetinizi giriniz");
         String gender = input.next();
 
