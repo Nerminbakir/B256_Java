@@ -32,7 +32,8 @@ public class StringManipulations04 {
         char first = name.trim().toUpperCase().charAt(0);
         System.out.println(first); //A
 
-        char last = name.trim().toUpperCase().split("\\s+")[1].charAt(0);
+        char last = name.trim().toUpperCase().split("\\s+")[1].charAt(0); //       \\s+  ; iki kelime arasında bir ve birden fazla boşluk
+        // bırakılırsa kullanılır.
         System.out.println(last); //C
 
         System.out.println("" + first + last); //AC
