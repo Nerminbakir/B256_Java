@@ -16,7 +16,7 @@ public class StringManipulations01 {
 
         //2.yol: Dinamik
 
-        String company1 = a.split("@")[1].split("\\.")[0];
+        String company1 = a.split("@")[1].split("\\.")[0]; //   \\. ; . işaretinden itibaren böl demektir
         System.out.println(company1); //gmail
 
         //3.yol: Dinamik
@@ -24,7 +24,8 @@ public class StringManipulations01 {
         //indexOf() method'u spesifik bir karakterin ilk gorunumunun index'ini verir
         //Bu method olmayan karakterler icin -1 verir
 
-        int startingIndex = a.indexOf("@") +1; //3
+        int startingIndex = a.indexOf("@") +1; //3   +1'i yapmamızın sebebi; substring methodu belirtilen başlangıç indexi dahil çalışır.
+                                                // @ işaretinden sonraki kısmı almak için +1 yazarız
         int endingIndex = a.indexOf("."); //9
 
         String companyName = a.substring(startingIndex, endingIndex);

@@ -39,7 +39,7 @@ public class StringManipulations04 {
         String str2 = new String("merhaba");
         String str3 = str1;
 
-        System.out.println(str1 == str2); //false, cunku iki farkli adresdeler
+        System.out.println(str1 == str2); //false, cunku iki farkli adresteler
         System.out.println(str1.equals(str2)); //true, cunku degerleri ayni
         System.out.println(str1 == str3); //true, cunku adresleri ayni
     }
