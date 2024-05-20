@@ -38,5 +38,16 @@ public class ForLoops03 {
             * * *
             * * * *
         */
+
+        System.out.println("Lütfen satır sayısını giriniz");
+        int satirSayisi= input.nextInt();
+
+        for (int i = 1; i <=satirSayisi ; i++) {
+            for (int j = 1; j <=i ; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
     }
 }

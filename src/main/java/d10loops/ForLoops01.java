@@ -66,7 +66,7 @@ public class ForLoops01 {
             }
         }
 
-        //-----------------2.yol
+        //-----------------2.yol if kullanmadan
         System.out.println("--------------");
         for (int i = 4; i < 21; i+=2) {
             System.out.println(i);
