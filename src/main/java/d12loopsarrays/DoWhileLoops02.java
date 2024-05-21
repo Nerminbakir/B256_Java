@@ -49,6 +49,5 @@ public class DoWhileLoops02 {
             }
         } while (true); //sonsuz dongu olur. Icerden kirilmadigi surece calisacak
 
-
     }
 }

@@ -3,7 +3,7 @@ package d12loopsarrays;
 public class DoWhileLoops01 {
     public static void main(String[] args) {
 
-        //do-while döngüsü, döngü bloğundaki kodun en az bir kere çalışacağından
+        // do-while döngüsü, döngü bloğundaki kodun en az bir kere çalışacağından
         // emin olmak istediğiniz zaman kullanılır. Yani döngüdeki kodlar,
         // koşul kontrolü yapılırken bile olsa, en az bir kez çalışacaktır.
 

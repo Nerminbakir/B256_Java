@@ -22,8 +22,8 @@ public class Arrays04 {
         for (int w : arr) {
 
             if (w != 0) { //Array'den gelen sayi sifira esit degilse
-                newArr[firstIndex] = w; //newArr'nin ilk index'ine gelen sayiyi yukledik
 
+                newArr[firstIndex] = w; //newArr'nin ilk index'ine gelen sayiyi yukledik
                 firstIndex++; //ilk index'i (0) bir artirdik cunku oraya yukleme yapilmisti
             }
         }
