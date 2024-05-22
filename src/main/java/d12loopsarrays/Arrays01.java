@@ -6,7 +6,9 @@ public class Arrays01 {
     public static void main(String[] args) {
 
         /*
-            1)Coklu data saklamaya izin veren yapilardir. Ornegin sinifinizdaki ogrencilerin isimleri.
+            1)Coklu data saklamaya izin veren özel yapilardir. Ornegin sinifinizdaki ogrencilerin isimleri.
+              Class değillerdir. Object sınıfından türemiş özel yapılardır.
+              Bu sayede, diziler bazı temel Object sınıfı yöntemlerini (örneğin, toString(), equals(), ve hashCode()) miras alırlar ve kullanabilirler.
             2)Array'ler tek data tipi depolayabilirler.Yani bir int dizisi sadece int değerler,
             bir String dizisi sadece String değerler saklayabilir.
             3)Array olusturmak icin i)Data Tipi ii)Data sayisi (Dizi boyutu için belirtilebilecek maksimum değer,
@@ -16,6 +18,12 @@ public class Arrays01 {
             5)Array'ler diger Collectionlardan daha az memory kullanirlar cünkü ekstra metadata veya işlevselliği yoktur.
             6)Array’ler hem primitive veri tiplerini (int, char, double vb.) hem de Object referanslarını
             (örneğin, String, Integer yani wrapper turleri gibi) saklayabilir.
+
+            - Aynı veri türündeki birden fazla öğeyi depolayabilen veri yapılarıdır.
+            - Sabit boyutludur, yani bir array oluşturulduktan sonra boyutu değiştirilemez.
+            - Array tanımlamak için veri türünü, köşeli parantezleri ve dizi adını kullanırsınız.
+            - Array oluşturmak için ise new anahtar kelimesini kullanarak Array'e bir boyut atarsınız.
+
         */
 
         //Array olusturmak

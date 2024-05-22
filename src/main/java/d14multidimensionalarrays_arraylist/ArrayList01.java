@@ -8,6 +8,9 @@ public class ArrayList01 {
          /*ArrayList, dinamik bir array yapısıdır. Bu, ArrayList'in boyutunun, elemanlar ekleme veya çıkarma
          sırasında otomatik olarak ayarlanabileceği anlamına gelir.
 
+        ArrayList, java.util paketinde bulunan ve dinamik olarak büyüyebilen bir koleksiyon sınıfıdır.
+        ArrayList, öğeleri bir dizide olduğu gibi sırayla depolar, ancak dizilerden farklı olarak boyutu sabit değildir.
+
         Gerçek hayattan bir örnek olarak, bir alışveriş listesi ArrayList olarak temsil edilebilir.
         Alışveriş listesi, ürünlere ait isimlerin bir listesini içerir. Ürünler, String referans türleridir.*/
 
@@ -44,8 +47,8 @@ public class ArrayList01 {
         ages.add(5);
         System.out.println(ages); //[9, 12, 5]
 
-        //List'te araya eleman eklemek icin index numarasini yazariz
-        //add(int index, E element): Bu metot, belirtilen elemanı ArrayList'in belirtilen konumuna ekler.
+        // List'te araya eleman eklemek icin index numarasini yazariz
+        // add(int index, E element): Bu metot, belirtilen elemanı ArrayList'in belirtilen konumuna ekler.
         // Mevcut elemanlar sağa kaydırılır.
 
         ages.add(1, 28);
@@ -96,8 +99,8 @@ public class ArrayList01 {
         // Bu metot, listedeki bir öğeyi güncellemek için kullanılır. Metot, eski öğeyi döndürür.
 
         Integer a = ages.set(1, 25); //1.index'teki elemani 25 yapar
-        System.out.println(a); //2
-        System.out.println(ages); //25
+        System.out.println(a); // 2 ; 25'i eklemeden önce ages'in 1. index'inde 2 olduğu için yazdırınca 2'yi verdi.
+        System.out.println(ages); // [1, 25, 3, 9, 28, 12, 7, 5, 11, 1, 2, 3]
 
     }
 }

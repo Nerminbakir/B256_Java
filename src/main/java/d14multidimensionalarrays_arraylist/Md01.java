@@ -4,11 +4,11 @@ import java.util.Arrays;
 public class Md01 {
     public static void main(String[] args) {
 
-        //Cok boyutlu dizi (MultiDimensional Array) temel olarak Array’in içine Array koymak anlamına gelir.
+        // Cok boyutlu dizi (MultiDimensional Array) temel olarak Array’in içine Array koymak anlamına gelir.
         // En yaygın örneği iki boyutlu dizilerdir, ki bunlar genellikle matris olarak düşünülebilir.
         // İki boyutlu bir dizi, satır ve sütunlardan oluşur, tıpkı bir Excel tablosu gibi.
 
-        //MultiDimensional Array nasil olusturulur?
+        // MultiDimensional Array nasil olusturulur?
 
         int[][] a = new int[3][2]; //3 distaki, 2 icteki eleman sayisi
 
@@ -32,8 +32,8 @@ public class Md01 {
 
         //Kisa yoldan MultiDimensional Array nasil olusturulur?
 
-        String[][] students = {{"Ali", "Kemal"}, {"Cemal"}, {"Ayhan", "Beyhan", "Seyhan"}, {"Ceyhan", " Burhan"}};
-        System.out.println(Arrays.deepToString(students)); //[[Ali, Kemal], [Cemal], [Ayhan, Beyhan, Seyhan], [Ceyhan,  Burhan]]
+        String[][] students = {{"Ali", "Kemal"}, {"Cemal"}, {"Ayhan", "Beyhan", "Seyhan"}, {"Ceyhan", "Burhan"}};
+        System.out.println(Arrays.deepToString(students)); //[[Ali, Kemal], [Cemal], [Ayhan, Beyhan, Seyhan], [Ceyhan, Burhan]]
 
         //---------------------
         //Ornek 1: Yukaridaki students array'inde toplam kac isim oldugunu bulunuz.
@@ -48,7 +48,8 @@ public class Md01 {
 
         System.out.println(sum); //8
 
-        //ODEV: String'lerde null yuklenmisse hata mi verir yoksa null degerlerini de sayar mi?
+        // ODEV: String'lerde null yuklenmisse hata mi verir yoksa null degerlerini de sayar mi?
+        // cevap : sayar, hata vermez
 
         //-------------------------------------
         //Ornek 2: Yukaridaki students Array'inde icinde "m" olan isimleri console'a yazdiriniz.
@@ -62,8 +63,8 @@ public class Md01 {
             for (String k : w) {
 
                 if (k.contains("m")) {
-                    System.out.println(k); //Kemal
-                    //Cemal
+                    System.out.println(k);  // Kemal
+                                            // Cemal
                 }
             }
         }
