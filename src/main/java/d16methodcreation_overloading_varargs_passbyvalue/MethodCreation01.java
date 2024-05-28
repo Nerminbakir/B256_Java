@@ -9,6 +9,7 @@ public class MethodCreation01 {
         geçerli ve erişilebilir olduğu için, main dışında bir yerde kullanılamaz. */
 
         /* Method Creation - Metot Olusturma
+
         Java'da method nasil olusturulur?
 
         1- main method'un disinda, class'in icinde olusturulur
