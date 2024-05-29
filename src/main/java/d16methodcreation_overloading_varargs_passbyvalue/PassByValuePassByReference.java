@@ -31,6 +31,8 @@ public class PassByValuePassByReference {
         */
 
         //ODEV: pass by refrence yaklasimini destekleyen programlama dilleri nelerdir
+        // Pass by reference yaklaşımını destekleyen programlama dilleri arasında;
+        // C++, C#, Python, Ruby, Perl ve PHP bulunmaktadır.
 
         int x = 3;
         int y = 5;
