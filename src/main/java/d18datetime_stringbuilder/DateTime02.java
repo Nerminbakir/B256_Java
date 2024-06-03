@@ -21,7 +21,7 @@ public class DateTime02 {
         //Period.between() metodu, iki tarih arasındaki farkı hesaplamak için kullanılır.
         // Bu metod, başlangıç ve bitiş tarihleri arasındaki tam yıl, ay ve gün farkını bir Period nesnesi olarak döndürür.
 
-        LocalDate date1 = LocalDate.of(2024, 5, 28);
+        LocalDate date1 = LocalDate.of(2024, 5, 31);
         LocalDate date2 = LocalDate.of(2022, 12, 24);
 
         Period difference = Period.between(date2, date1);
