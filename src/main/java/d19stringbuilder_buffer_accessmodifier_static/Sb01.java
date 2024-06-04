@@ -50,7 +50,7 @@ public class Sb01 {
         StringBuilder sb3 = new StringBuilder("Kava");
 
         int result = sb2.compareTo(sb3);
-        System.out.println(result); //15
+        System.out.println(result); //15; Ascii Table'a göre Z=90 K=75 aralarındaki fark;15
 
         //-------------------
         //7-toString() metodu, StringBuilder nesnesinin içeriğini bir String nesnesine dönüştürür.
