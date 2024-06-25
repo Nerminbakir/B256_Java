@@ -136,6 +136,35 @@ public class LinkedList01 {
         System.out.println(myList); //[Hasan, Zeynep, Veli, Ayse, Fatma, Huseyin]
 
         //removeLast() nedir?
+        //--------------------------------
+        //8) peek() metodu, bir koleksiyonun ilk elemanına erişmek için kullanılır.
+        // Bu metod, elemanı koleksiyondan kaldırmaz.
+        // Bu metod, koleksiyon boşsa null dondurur
+
+        String s = myList.peek();
+        System.out.println(s); //Hasan
+        System.out.println(myList); //[Hasan, Zeynep, Veli, Ayse, Fatma, Huseyin]
+
+        //--------------------------------
+        //9)poll() metodu, bir koleksiyonun başındaki elemanı alır ve koleksiyondan kaldırır.
+        // Bu metod, koleksiyon boşsa null döndürür.
+        System.out.println(myList.poll()); //Hasan
+        System.out.println(myList); //[Zeynep, Veli, Ayse, Fatma, Huseyin]
+
+        //--------------------------------
+        //10) element() metodu, bir koleksiyonun başındaki elemanı alır, ancak elemanı koleksiyondan kaldırmaz.
+        // Bu metod, koleksiyon boşsa NoSuchElementException istisnası atar. (peek() null dondurur)
+        // bir koleksiyonun boş olup olmadığını kontrol etmek için NoSuchElementException istisnasını kullanir
+
+        System.out.println(myList.element()); //Zeynep
+        System.out.println(myList); //[Zeynep, Veli, Ayse, Fatma, Huseyin]
+
+        //--------------------------------
+        //11) pop() metodu, bir koleksiyonun ilk elemanını alır ve koleksiyondan kaldırır.
+        // Bu metod, koleksiyon boşsa NoSuchElementException istisnası atar.(poll() null dondurur)
+
+        System.out.println(myList.pop()); //Zeynep
+        System.out.println(myList); //[Veli, Ayse, Fatma, Huseyin]
 
     }
 }
